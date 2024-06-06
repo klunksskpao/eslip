@@ -1,0 +1,31 @@
+<style>
+    body {
+      font-family: 'Noto Sans Thai', sans-serif;
+    }
+
+    a {
+      color: #198754;
+      text-decoration: none;
+    }
+
+    .center{
+      text-align:center;
+    }
+    
+    @media print {
+    body * {
+      visibility: hidden;
+    }
+
+    .print-container,
+    .print-container * {
+      visibility: visible;
+    }
+
+    .print-container {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+    }
+  }
+  </style>
